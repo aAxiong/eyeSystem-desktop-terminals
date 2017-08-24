@@ -1,0 +1,14 @@
+{
+  "name": "VisionTestingSystem",
+  "version": "1.0.0",
+  "description": "A Vision testing system",
+ 
+   "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ app --win --out app --arch=x64 --version 1.3.4 --overwrite --ignore=node_modules" 
+  },
+  "devDependencies": {
+    "silly-datetime": "^0.1.2",
+    "socket.io": "^1.7.3"
+  }
+}

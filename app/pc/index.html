@@ -1,0 +1,437 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" href="css/system.css">
+    <title>视力检查系统</title>
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="md">
+                <div class="headTit">百夫视力检测系统</div>
+                <div class="logo"><img src="images/logo.png"></div>
+                <div class="MobileCode">
+                    <span>采用标准：GB/T 11533-2011</span>
+                    <a>手机扫码</a>
+                </div>
+            </div> 
+        </div>
+        <div class="content">
+             <div class="md">
+                  <div class="garound ty">
+                       <div class="HeadLine ty"><a><img src="images/sl-icon.png">视力检测</a></div>
+                       <ul class="SmallTit">
+                          <li class="sbli active">
+                            <a href="#/sb"><i></i>视力表</a>
+                          </li>
+                          <li class="ysli">
+                            <a href="#/ys"><i></i>夜视力</a>
+                          </li>
+                          <li class="smli">
+                            <a href="#/sm"><i></i>色盲筛查图</a>
+                          </li>
+                          <li class="hlli">
+                            <a href="#/hl"><i></i>红绿随机点立体图</a>
+                          </li>
+                       </ul>
+                       <div class="HeadLine ty"><a><img src="images/oper-b-icon.png">设置</a></div>
+                       <ul class="SmallTit">
+                          <li class="jcli">
+                            <a href="#/jc"><i></i>检测报告</a>
+                          </li>
+                          <li class="szli">
+                            <a href="#/sz"><i></i>设置</a>
+                          </li>
+                       </ul>
+                  </div>
+
+                  <div class="section visualChat"  data-route="sb">
+                        <div class="gturn">
+                        <div class="upart ty" id="afs">
+                            <p class="TopTit">视力表</p>
+                            <ul class="visValue">
+                                <li><a class="active">4.0</a></li>
+                                <li><a>4.1</a></li>
+                                <li><a>4.2</a></li>
+                                <li><a>4.3</a></li>
+                                <li><a>4.4</a></li>
+                                <li><a>4.5</a></li>
+                                <li><a>4.6</a></li>
+                                <li><a>4.7</a></li>
+                                <li><a>4.8</a></li>
+                                <li><a>4.9</a></li>
+                                <li><a>5.0</a></li>
+                                <li><a>5.1</a></li>
+                                <li><a>5.2</a></li>
+                            </ul>
+                           
+                            <div class="lightBtn ly" id="visuabtn">下一个</div>
+                            <div class="lightBtn lightshe ly">视距设定</div>
+
+                        </div>
+                        <div class="dpart ty">
+                            <div class="visVaE">
+                              <!-- <img src="images/BE.svg" class="S-E"> -->
+                              <img src="images/BE.png" class="D-E">
+                             <!--  <img src="images/BE.svg" class="A-E">  -->
+
+                            <!--   <img src="images/BE.bmp" class="A-E"> -->
+
+                              <!-- <div class="tuphot">
+                                  
+                              </div> -->
+                            </div>
+                        </div>   
+                       </div>
+                  </div>
+                  <div class="section nightVision" data-route="ys">
+                     <div class="gturn">
+                            <div class="upart ty">
+                                <p  class="TopTit">夜视力</p>
+                                <ul class="visValue">
+                                    <li><a class="active">4.0</a></li>
+                                    <li><a>4.1</a></li>
+                                    <li><a>4.2</a></li>
+                                    <li><a>4.3</a></li>
+                                    <li><a>4.4</a></li>
+                                    <li><a>4.5</a></li>
+                                    <li><a>4.6</a></li>
+                                    <li><a>4.7</a></li>
+                                    <li><a>4.8</a></li>
+                                    <li><a>4.9</a></li>
+                                    <li><a>5.0</a></li>
+                                    <li><a>5.1</a></li>
+                                    <li><a>5.2</a></li>
+                                </ul>
+                                <div class="lightBtn ly" id="nightbtn">下一个</div>
+                                <div class="lightBtn lightshe ly">视距设定</div>
+
+                            </div>
+                            <div class="dpart ty">
+                                <div class="visVaE">
+                                <!--   <img src="images/BE.svg" class="S-E"> -->
+       <!--                            <img src="images/BE.svg" class="D-E"> -->
+                                  <img src="images/ysE.bmp" class="A-E">
+                                </div>
+                                <!-- <ul class="visVaE">
+                                    <li><img src="images/E.png"></li>
+                                    <li><img src="images/E.png"></li>
+                                    <li><img src="images/E.png"></li>                       
+                                </ul> -->
+                            </div>   
+                        </div>
+                  </div>
+                  <div class="section colorScreen" id="colorScreen"  data-route="sm">
+                     <div class="gturn pd ty">
+                              <div class="whole">
+                                
+                                   <p  class="TopTit">色盲筛查图</p>  
+                                   <div class="sCimg">
+                                       <div class="sCbox"><img src="images/PRO/s1.png"  />
+                                         <div class="sCbtn">
+                                        <div class="lightBtn" id="colorbtnPrev">上一个</div>
+                                        <div class="lightBtn" id="colorbtnNext">下一个</div>
+                                       <!--  <div class="lightBtn">视距设定</div> -->
+                                       </div>
+                                       </div>
+                                       
+                                   </div>
+                                  
+                                   </div>  
+                      </div>
+                  </div>
+                  <div class="section colorScreen redGreenRandom" id="redGreenRandom" data-route="hl">
+                       <div class="gturn pd ty">
+                      
+                              <div class="whole">
+                                   <p  class="TopTit">红绿点随机立体图</p>  
+                                   <div class="sCimg">
+                                       <div class="sCbox squares">
+                                       <img src="images/PRO/h1.png" />
+                                        <div class="sCbtn">
+                                      <div class="lightBtn" id="redGreenPrev">上一个</div>
+                                      <div class="lightBtn" id="redGreenNext">下一个</div>
+                                     <!--  <div class="lightBtn">视距设定</div> -->
+                                   </div>
+                                       </div>
+                                      
+                                   </div>
+                                   
+                                   </div>
+                            
+                        </div>
+                  </div>
+                  <div class="section testReport" data-route="jc">
+                   <div class="gturn pd ty">
+                            <div class="whole">
+                         
+                                <div class="Report">
+
+                                    <a class="lightBtn">上传到云服务器<img src="images/upload-icon.png"/> 
+                                  <form name="form" action="" method="POST" enctype="multipart/form-data">
+                                 <input id="fileToUpload" name='file_stu' type="file" size="45" name="fileToUpload" onchange="return uploadSubmit();">
+                                 </form>
+                                    </a>
+                                </div>
+                                <div class="hrline"></div>
+                                <div class="Research">
+                                    <div class="searchbox fl"> 
+                                      <input type=""  placeholder="查找学生姓名
+                                      " name=""/><a href="#"><img src="images/seach-icon.png" ></a>
+                                    </div>
+                                    <a class="lightBtn searchBtn">查找</a>
+                                    <a class="lightBtn delbtn">删除</a>
+                                    <div class="cl"></div>
+                                </div>
+                                <div class="ResResult">
+                                    <div class="Resbox">
+
+                                        <table cellpadding="0" cellspacing="0">
+                                         
+                                            <thead>
+                                              <tr>
+                                              <th class="r2">名字</th>
+                                              <th class="r2">生日</th>
+                                              <th class="r2">左眼视力</th>
+                                              <th class="r2">右眼视力</th>
+                                              <th class="r2">夜视力</th>
+                                              <th class="r2">色盲检测</th>
+                                              <th class="r3">立体视</th>
+                                              <th class="r1">眼位</th>
+                                            </tr>
+                                            </thead>
+                                            
+
+                                        
+                                           
+                                        </table>
+                                        <div class="cl"></div>
+                                    </div>
+                              
+                            </div>
+                      </div>
+                       </div>
+                  </div>
+
+                  <div class="section setUp" data-route="sz">
+                          
+                   <div class="gturn">
+                      <div class="upart ty">
+                          <p class="TopTit">设置</p>
+                          <div class="setOper">
+                               <div class="operpro">
+                                  <span class="optit fl">检测项目设定:</span>
+                                  <ul class="operUl">
+                                    <li class="active"><a class="grayBtn ">视力表</a></li>
+                                    <li class="active"><a class="grayBtn ">夜视力</a></li>
+                                    <li class="active"><a class="grayBtn ">色盲筛查图</a></li>
+                                    <li class="active"><a class="grayBtn ">红绿随机点立体图</a></li>
+                                  </ul>
+                                  <div class="cl"></div>
+                               </div>
+                               <div class="cl"></div>
+                               <div class="operpro operzhi">
+                                  <span class="optit fl">分辨率矫正:</span>
+                                  <a class="lightBtn">设置</a>
+                                  <div class="clear"></div>
+                               </div>
+                          </div>
+
+                      </div>
+                      <div class="dpart ty">
+                          <p class="TopTit">选择视力检测记录:</p>
+                          <div class="savaSelect">
+                            <select>
+                           
+                            </select>
+                          </div>
+                          <div class="serAddr">
+                          <p class="TopTit">服务器通讯地址:</p>
+                          <div class="commun fl"><input type="" name="" placeholder="请将服务器地址放至此处" id="serInput"/></div>
+                          <a href="#" class="fl lightBtn ly">保存</a>
+                          </div>
+
+
+                      </div>   
+
+                   </div>
+                  </div>
+
+             </div>
+            
+        </div>
+    </div> 
+
+    <div class="TwoDimenWindow" >
+         <div class="DimenBox">
+              <div class="DimenOrnament1"><img src="images/wwa-icon.png" /></div>
+              <div class="DimenOrnament2"><img src="images/wwb-icon.png" /></div>
+              <div class="DimenOrnament3"><img src="images/ssa-icon.png" /></div>
+              <div class="DimenOrnament4"><img src="images/ssb-icon.png" /></div>
+              <div class="DimeTit">手机扫码</div>
+              <div class="DimeClose"><img src="images/close-icon.png" /></div>
+              <div class="Dimetishi">
+                <a>如果手机无法连接,请切换IP地址,或检查防火墙是否关闭</a><span><img src="images/close-h-icon.png"></span>
+              </div>
+              <div class="DimeWei" id="qrcode"></div>
+              <p class="Dimeshao">请使用手机扫描二维码</p>
+              <p class="Dimeaddres">http://192.168.9.238:3000/mobile/index.html?room=/#PTEAOgILtCzrGx0dAAAA</p>
+              <div class="DimeIp">
+                 <span>服务器ip</span><input type="" name="" value="192.168.9.238">
+              </div>
+         </div> 
+    </div>
+
+
+     <div class="LineSight" >
+         <div class="DimenBox">
+              <div class="DimeTit">视距设定</div>
+              <div class="DimeClose"><img src="images/close-icon.png" /></div>
+              <div class="Dimecon">
+                 <span>测试距离</span><input type="text" value="2.5" name="" />/米
+              </div>
+              <div class="Dimecon" style="margin-top: -11px;">
+                 <span>字母大小</span><a>3.636</a>/毫米
+              </div>
+              <div class="DimeChongbg"><div class="DimeChong">重置默认值</div></div>
+         </div> 
+    </div>
+
+    <div class="DelSure" >
+         <div class="DimenBox">
+              <div class="DimeTit">删除确认</div>
+              <div class="DimeClose"><img src="images/close-icon.png" /></div>
+              <div class="Dimecon">
+                  <span class="Scure">请输入删除学生名字</span>
+              </div>
+              <div class="Dimecon" style="margin-top: -11px;">
+                 <input type="" name="" class="ScureInput">
+              </div>
+              <div class="DimeChongbg"><div class="DimeChong">确定删除</div></div>
+         </div> 
+    </div>
+
+   <div class="ResolvingPower" >
+        <div class="DimenBox">
+           <div class="DimeTit">分辨率矫正</div>
+           <div class="DimeClose"><img src="images/close-icon.png" /></div>
+           <div class="total_k">
+
+        <div class="han drap" style="top:80px;">
+            <div class="han_arr"></div>
+        </div>
+        <div class="han drap"><div class="han_arr"></div></div>
+        <div class="lie drap" style="left:100px;">
+            <div class="lie_arr"></div>
+        </div>
+        <div class="lie drap">
+            <div class="lie_arr"></div>
+        </div>
+        <div class="t_tit">宽度:<span></span>高度:<span></span></div>
+        </div>
+
+         <a class="resary" id="resary">确定位置</a>
+
+        </div>
+    </div>
+
+    <div id='result'></div>
+    <div id='loading' style="display:none;">
+    <div><span style="color:#000000;">正在操作，请稍候... ...</span></div>
+    <div id="windows"></div>
+    </div>
+
+     <script src="js/socket.io-1.2.0.js"></script>
+     <!-- 版本2.0 以上不再支持IE8 IE7 IE6 -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+    <script>if (typeof module === 'object') {window.jQuery = window.$ = module.exports;};</script>
+    
+    <!-- 二维码扫描 -->
+    <script type="text/javascript" src="js/qrcode.min.js"></script>
+
+    <!-- 前端路由框架 -->
+    <script type="text/javascript" src="js/director.min.js"></script>
+     <script src="js/ajaxfileupload.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/sysdire.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+     <script>
+
+      function uploadSubmit() {
+        $('#loading').show()
+        var serText=$(".dpart .commun input").val();
+        var val=$('.savaSelect select option:selected') .val();
+        if(serText==""){alert("服务器通讯地址不能为空！"); $('#loading').hide();return false}
+            var file = $('#fileToUpload').val();
+            //检查是否已选择上传文件
+            if (file != '') {
+                var filename = file.replace(/.*(\/|\\)/, '');
+                var fileext = (/[.]/.exec(filename)) ? /[^.]+$/.exec(filename.toLowerCase()) : '';
+                //检查文件格式
+                if (fileext == 'xlsx' || fileext == 'xls') {
+
+                    //上传excel文件
+                    $.ajaxFileUpload({
+                        url: serText,
+                        data:{"kaoci":val},
+                        secureuri: false,
+                        dataType: "text",
+                        fileElementId: 'fileToUpload',
+                        success: function (data) {       //data是后台返回过来的在上传并保持excel内容过程中的用户提示信息
+                             alert("success");
+                            $('#loading').hide();
+                           
+                        },
+                    });
+                }
+                else {
+                    alert('文件格式必须是*.xls或*.xlsx');
+                }
+            }
+            else {
+                alert('请选择excel文件！')
+            }
+        };
+
+         //var socket = io.connect('http://localhost:8198');
+          // socket.on('char message',function(data){
+            
+          //          if(data.my == "one"){
+          //       $(".headTit").css("background","red");
+          //    }
+          //       console.log(data);   //别人给你发送的信息
+          // });
+
+
+          //  $(".headTit").click(function(){
+              
+          //     socket.emit('char message', { my: 'two' });
+          // })
+
+        // socket.on('my other event', function (data) {
+        //      console.log(data);
+        //      if(data.hello.my == "one"){
+        //         $("#headTit").css("background","red");
+        //      }
+        //      //socket.emit('my other event', { my: 'data' });
+        // });
+
+         // $("#and").click(function(){
+         
+         //     socket.emit('my other event', { my: 'one' });
+         // })
+
+
+    </script>
+
+    <!-- 解决electron 和 jquery 的冲突 -->
+  <!--  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script> -->
+  
+
+</body>
+</html>

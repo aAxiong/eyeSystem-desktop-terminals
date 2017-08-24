@@ -1,0 +1,17 @@
+{
+  "name": "visionapp",
+  "version": "1.0.0",
+  "description": "A Vision testing system",
+  "main": "main.js",
+  "scripts": {
+    "package": "electron-packager ./ app --win --out app --arch=x64 --version 1.3.4 --overwrite --ignore=node_modules --version-string.CompanyName=视力普查系统 --version-string.ProductName=视力普查系统 --icon=app/128.ico"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.6.0",
+    "excel-export": "^0.5.1",
+    "node-xlsx": "^0.7.4",
+    "silly-datetime": "^0.1.2",
+    "socket.io": "^1.7.3",
+    "xlsx": "^0.9.7"
+  }
+}

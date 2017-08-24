@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	  <button id="bt">按钮</button>
+
+	  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	  <script src="socket.io-1.2.0.js"></script>
+	  <script type="text/javascript">
+	  	
+	  		var socket = io.connect('http://localhost:8899');
+
+	  		var sdsd = [  
+				{"id":"book1","studentid":"1","eyeL":"27","eyeR":"1","ys":"整除","sm":"正常","liti":"正常","yanwei":"眼位"} 
+				] 
+			
+				socket.emit('wenben', { sdsd });
+				// socket.emit('delect file', { success:1 });  //删除文件
+			
+				
+	  </script>
+</body>
+</html>
